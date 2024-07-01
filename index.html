@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training TR-102 Report</title>
+    <link rel="stylesheet" href="diary.css">
+    <style>
+        header {
+        background-color: #333; /* Example background color */
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white; /* Text color */
+    }
+
+    .logo-link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: white; /* Text color */
+    }
+
+    .logo-text {
+        margin-left: 10px; /* Adjust margin as needed */
+        font-weight: bold; /* Example font weight */
+        font-size: 24px; /* Adjust text size */
+    }
+
+    .home-button {
+        color: white; /* Text color */
+        text-decoration: none;
+        padding: 5px 10px;
+        background-color: #007bff; /* Example button background color */
+        border-radius: 5px; /* Example border radius */
+    }
+
+    .home-button:hover {
+        background-color: #0056b3; /* Example hover background color */
+    }
+
+    
+
+        /* Styles for the slideshow */
+        .gallery {
+            position: relative;
+            max-width: 100%;
+            overflow: hidden;
+        }
+
+        .gallery img {
+            display: none;
+            width: 100%;
+            height: auto;
+        }
+
+        .gallery img.active {
+            display: block;
+        }
+
+        .gallery .caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 10px;
+            text-align: center;
+            display: none;
+        }
+
+        .pdf-container {
+            margin-top: 20px;
+        }
+
+        .pdf-container iframe {
+            width: 100%;
+            height: 1000px;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <a href="https://www.gndec.ac.in/" class="logo-link">
+                <img src="./images/gndecLogo.png" alt="GNDEC Logo">
+                <span class="logo-text">GNDEC Ludhiana</span>
+            </a>
+            <a href="#" class="home-button" onclick="showSection('home')">Home</a>
+        </header>
+
+
+        <section id="home" class="section active">
+            <p><h1>Training TR-102 Report <br>
+            Machine Learning Training <br>
+                INFOWIZ</h1></p>
+
+        </section>
+
+        <nav>
+            <a href="#" onclick="showSection('day1')">Day 1</a>
+            <a href="#" onclick="showSection('day2')">Day 2</a>
+            <a href="#" onclick="showSection('day3')">Day 3</a>
+            <a href="#" onclick="showSection('day4')">Day 4</a>
+            <a href="#" onclick="showSection('day5')">Day 5</a>
+            <a href="#" onclick="showSection('day6')">Day 6</a>
+            <a href="#" onclick="showSection('day7')">Day 7</a>
+            <a href="#" onclick="showSection('day8')">Day 8</a>
+            <a href="#" onclick="showSection('day9')">Day 9</a>
+            <a href="#" onclick="showSection('day10')">Day 10</a>
+            <a href="#" onclick="showSection('day11')">Day 11</a>
+            <a href="#" onclick="showSection('day12')">Day 12</a>
+            <a href="#" onclick="showSection('day13')">Day 13</a>
+            <a href="#" onclick="showSection('day14')">Day 14</a>
+            <a href="#" onclick="showSection('day15')">Day 15</a>
+            <a href="#" onclick="showSection('day16')">Day 16</a>
+            <a href="#" onclick="showSection('day17')">Day 17</a>
+            <a href="#" onclick="showSection('day18')">Day 18</a>
+            <a href="#" onclick="showSection('day19')">Day 19</a>
+            <a href="#" onclick="showSection('day20')">Day 20</a>
+            <a href="#" onclick="showSection('day21')">Day 21</a>
+            <a href="#" onclick="showSection('day22')">Day 22</a>
+            <a href="#" onclick="showSection('day23')">Day 23</a>
+            <a href="#" onclick="showSection('day24')">Day 24</a>
+            <a href="#" onclick="showSection('day25')">Day 25</a>
+            <a href="#" onclick="showSection('day26')">Day 26</a>
+            <a href="#" onclick="showSection('day27')">Day 27</a>
+            <a href="#" onclick="showSection('day28')">Day 28</a>
+            <a href="#" onclick="showSection('day29')">Day 29</a>
+            <a href="#" onclick="showSection('day30')">Day 30</a>
+            <a href="#" onclick="showSection('day31')">Day 31</a>
+            <a href="#" onclick="showSection('day32')">Day 32</a>
+            <a href="#" onclick="showSection('day33')">Day 33</a>
+            <a href="#" onclick="showSection('day34')">Day 34</a>
+            <a href="#" onclick="showSection('day35')">Day 35</a>
+            <a href="#" onclick="showSection('day36')">Day 36</a>
+            <br>
+        </nav>
+
+
+
+
+        <!-- PDF Containers for each training day -->
+        <section id="day1" class="section">
+            <h1>Training Report Day 1</h1>
+            <div class="pdf-container">
+                <iframe src="/pdf/DAY 1.pdf"></iframe>
+            </div>
+        </section>
+
+        <section id="day2" class="section">
+            <h1>Training Report Day 2</h1>
+            <div class="pdf-container">
+                <iframe src="/pdf/DAY 2.pdf"></iframe>
+            </div>
+        </section>
+
+        <section id="day3" class="section">
+            <h1>Training Report Day 3</h1>
+            <div class="pdf-container">
+                <iframe src="/pdf/DAY 3.pdf"></iframe>
+            </div>
+        </section>
+
+        <section id="day4" class="section">
+            <h1>Training Report Day 4</h1>
+            <div class="pdf-container">
+                <iframe src="/pdf/DAY 4.pdf"></iframe>
+            </div>
+        </section>
+
+        <section id="day5" class="section">
+            <h1>Training Report Day 5</h1>
+            <div class="pdf-container">
+                <iframe src="/pdf/DAY 5.pdf"></iframe>
+            </div>
+        </section>
+
+        <section id="day6" class="section">
+            <h1>Training Report Day 6</h1>
+            <div class="pdf-container">
+                <iframe src="/pdf/DAY 6.pdf"></iframe>
+            </div>
+        </section>
+
+        <section id="day7" class="section">
+            <h1>Training Report Day 7</h1>
+            <div class="pdf-container">
+                <iframe src="/pdf/DAY 7.pdf"></iframe>
+            </div>
+        </section>
+
+        <section id="day8" class="section">
+            <h1>Training Report Day 8</h1>
+            <div class="pdf-container">
+                <iframe src="/pdf/DAY 8.pdf"></iframe>
+            </div>
+        </section>
+
+        <section id="day9" class="section">
+            <h1>Training Report Day 9</h1>
+            <div class="pdf-container">
+                <iframe src="/pdf/DAY 9.pdf"></iframe>
+            </div>
+        </section>
+
+        <section id="day10" class="section">
+            <h1>Training Report Day 10</h1>
+            <div class="pdf-container">
+                <iframe src="/pdf/DAY 10.pdf"></iframe>
+            </div>
+        </section>
+
+        <section id="day11" class="section">
+            <h1>Training Report Day 11</h1>
+            <div class="pdf-container">
+                <iframe src="/pdf/DAY 11.pdf"></iframe>
+            </div>
+        </section>
+
+        <section id="day12" class="section">
+            <h1>Training Report Day 12</h1>
+            <div class="pdf-container">
+                <iframe src="/pdf/DAY 12.pdf"></iframe>
+            </div>
+        </section>
+
+        <section id="day13" class="section">
+            <h1>Training Report Day 13</h1>
+            <div class="pdf-container">
+                <iframe src="/pdf/DAY 13.pdf"></iframe>
+            </div>
+        </section>
+
+        <section id="day14" class="section">
+            <h1>Training Report Day 14</h1>
+            <div class="pdf-container">
+                <iframe src="/pdf/DAY 14.pdf"></iframe>
+            </div>
+        </section>
+
+        <section id="day15" class="section">
+            <h1>Training Report Day 15</h1>
+            <div class="pdf-container">
+                <iframe src="/pdf/DAY 15.pdf"></iframe>
+            </div>
+        </section>
+
+        <section id="day16" class="section">
+            <h1>Training Report Day 16</h1>
+            <div class="pdf-container">
+                <iframe src="/pdf/DAY 16.pdf"></iframe>
+            </div>
+        </section>
+
+        <section id="day17" class="section">
+            <h1>Training Report Day 17</h1>
+            <div class="pdf-container">
+                <iframe src="/pdf/DAY 17.pdf"></iframe>
+            </div>
+        </section>
+
+        <section id="day18" class="section">
+            <h1>Training Report Day 18</h1>
+            <div class="pdf-container">
+                <iframe src="/pdf/DAY 18.pdf"></iframe>
+            </div>
+        </section>
+
+        <section id="day19" class="section">
+            <h1>Training Report Day 19</h1>
+            <div class="pdf-container">
+                <iframe src="/pdf/DAY 19.pdf"></iframe>
+            </div>
+        </section>
+
+        <section id="day20" class="section">
+            <h1>Training Report Day 20</h1>
+            <div class="pdf-container">
+                <iframe src="/pdf/DAY 20.pdf"></iframe>
+            </div>
+        </section>
+
+        <section id="day21" class="section">
+            <h1>Training Report Day 21</h1>
+            <div class="pdf-container">
+                <iframe src="/pdf/DAY 21.pdf"></iframe>
+            </div>
+        </section>
+
+        <section id="day22" class="section">
+            <h1>Training Report Day 22</h1>
+            <div class="pdf-container">
+                <iframe src="/pdf/DAY 22.pdf"></iframe>
+            </div>
+        </section>
+
+        <section id="day23" class="section">
+            <h1>Training Report Day 23</h1>
+            <div class="pdf-container">
+                <iframe src="/pdf/DAY 23.pdf"></iframe>
+            </div>
+        </section>
+
+        <section id="day24" class="section">
+            <h1>Training Report Day 24</h1>
+            <div class="pdf-container">
+                <iframe src="/pdf/DAY 24.pdf"></iframe>
+            </div>
+        </section>
+
+        <section id="day25" class="section">
+            <h1>Training Report Day 25</h1>
+            <div class="pdf-container">
+                <iframe src="/pdf/DAY 25.pdf"></iframe>
+            </div>
+        </section>
+
+        <section id="day25" class="section">
+            <h1>Training Report Day 25</h1>
+            <div class="pdf-container">
+                <iframe src="/pdf/DAY 25.pdf"></iframe>
+            </div>
+        </section>
+
+        <section id="day26" class="section">
+            <h1>Training Report Day 26</h1>
+            <div class="pdf-container">
+                <iframe src="/pdf/DAY 26.pdf"></iframe>
+            </div>
+        </section>
+
+        <section id="day27" class="section">
+            <h1>Training Report Day 27</h1>
+            <div class="pdf-container">
+                <iframe src="/pdf/DAY 27.pdf"></iframe>
+            </div>
+        </section>
+
+        <section id="day28" class="section">
+            <h1>Training Report Day 28</h1>
+            <div class="pdf-container">
+                <iframe src="/pdf/DAY 28.pdf"></iframe>
+            </div>
+        </section>
+
+        <section id="day29" class="section">
+            <h1>Training Report Day 29</h1>
+            <div class="pdf-container">
+                <iframe src="/pdf/DAY 29.pdf"></iframe>
+            </div>
+        </section>
+
+        <section id="day30" class="section">
+            <h1>Training Report Day 30</h1>
+            <div class="pdf-container">
+                <iframe src="/pdf/DAY 30.pdf"></iframe>
+            </div>
+        </section>
+
+        <section id="day31" class="section">
+            <h1>Training Report Day 31</h1>
+            <div class="pdf-container">
+                <iframe src="/pdf/DAY 31.pdf"></iframe>
+            </div>
+        </section>
+
+        <section id="day32" class="section">
+            <h1>Training Report Day 32</h1>
+            <div class="pdf-container">
+                <iframe src="/pdf/DAY 32.pdf"></iframe>
+            </div>
+        </section>
+
+        <section id="day33" class="section">
+            <h1>Training Report Day 33</h1>
+            <div class="pdf-container">
+                <iframe src="/pdf/DAY 33.pdf"></iframe>
+            </div>
+        </section>
+
+        <section id="day34" class="section">
+            <h1>Training Report Day 34</h1>
+            <div class="pdf-container">
+                <iframe src="/pdf/DAY 34.pdf"></iframe>
+            </div>
+        </section>
+
+        <section id="day35" class="section">
+            <h1>Training Report Day 35</h1>
+            <div class="pdf-container">
+                <iframe src="/pdf/DAY 35.pdf"></iframe>
+            </div>
+        </section>
+
+        <section id="day36" class="section">
+            <h1>Training Report Day 36</h1>
+            <div class="pdf-container">
+                <iframe src="/pdf/DAY 36.pdf"></iframe>
+            </div>
+        </section>
+
+
+        <!-- Add more sections for each day's PDF -->
+
+        <footer>
+            <a href="https://www.linkedin.com/in/neerabh1848/">
+                <img src="./images/linkedin_logo.png" alt="LinkedIn" style="width: 30px; height: auto;">
+            </a>
+        </footer>
+
+
+    </div>
+
+    <script>
+        function showSection(id) {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                section.classList.remove('active');
+            });
+            document.getElementById(id).classList.add('active');
+        }
+    </script>
+</body>
+
+</html>
